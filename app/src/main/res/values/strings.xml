@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">CTS - critical thinking skills</string>
+    <string name="loading">Loading...</string>
+    <string name="new_game">New game</string>
+    <string name="options">Options</string>
+    <string name="exit">Exit</string>
+    <string name="music">Music</string>
+    <string name="sfx">SFX</string>
+    <string name="back">back</string>
+    <string name="SFX">SFX</string>
+    <string name="play_again">Play again</string>
+
+    <string name="reset_label">Reset</string>
+    <string name="a">a</string>
+    <string name="name_prompt">Enter your name:  </string>
+    <string name="button_label">Continue</string>
+    <string name="desc">One of the buttons on the Memory board</string>
+    <string name="title_activity_user_name">User Name</string>
+    <string name="scores">High Scores</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="play">Play</string>
+    <string name="play_button">Play</string>
+    <string name="score_button">High Scores</string>
+    <string name="exit_button">Exit</string>
+    <string name="dialog_title">Exit: Are you sure?</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+    <string name="scores_head">HIGH SCORES</string>
+    <string name="enter_button">Enter</string>
+    <string name="score_text">Score: 0</string>
+    <string name="level_name">Choose a level</string>
+
+    <string name="mathematics">Mathematics</string>
+    <string name="help_info">You Do The Math! is an arithmetic game.\n\n
+    Choose Easy, Medium or Hard level to begin.\n\n
+    Answer the question by typing on the number pad displayed and pressing enter.\n\n
+    Press the C button to clear an existing answer.\n\n
+    Each question may be an addition, subtraction, multiplication or division.\n\n
+    Your ten best scores will automatically be saved into the High Scores.</string>
+    <string name="zero">Score: 0</string>
+
+</resources>
