@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CTS-criticalthinkingskills.iml" filepath="$PROJECT_DIR$/CTS-criticalthinkingskills.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CTS-critical_thinking_skills.iml" filepath="$PROJECT_DIR$/CTS-critical_thinking_skills.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

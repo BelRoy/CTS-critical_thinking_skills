@@ -7,9 +7,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 
-
 import com.devqt.cts_critical.thinking.skills.game.KrestikiNoliki;
-import com.devqt.cts_critical.thinking.skills.game.Math;
+import com.devqt.cts_critical.thinking.skills.game.Mathematic;
 
 public class MenuGameItems extends Activity {
 
@@ -32,10 +31,11 @@ public class MenuGameItems extends Activity {
         findViewById(R.id.math).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MenuGameItems.this, Math.class));
+                startActivity(new Intent(MenuGameItems.this, Mathematic.class));
                 finish();
             }
         });
+
 
     }
 

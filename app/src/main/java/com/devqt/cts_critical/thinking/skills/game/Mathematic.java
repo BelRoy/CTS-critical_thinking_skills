@@ -18,7 +18,7 @@ import com.devqt.cts_critical.thinking.skills.R;
 import com.devqt.cts_critical.thinking.skills.infor.Records;
 
 
-public class Math extends Activity implements View.OnClickListener {
+public class Mathematic extends Activity implements View.OnClickListener {
 
     private Button playButton, recordButton, exitButton;
 
@@ -96,7 +96,7 @@ public class Math extends Activity implements View.OnClickListener {
 
     private void openQuitDialog() {
         AlertDialog.Builder quitDialog = new AlertDialog.Builder(
-                Math.this);
+                Mathematic.this);
         quitDialog.setTitle(R.string.dialog_title);
 
         quitDialog.setPositiveButton(R.string.dialog_yes, new DialogInterface.OnClickListener() {
@@ -115,4 +115,6 @@ public class Math extends Activity implements View.OnClickListener {
 
         quitDialog.show();
     }
+
+
 }

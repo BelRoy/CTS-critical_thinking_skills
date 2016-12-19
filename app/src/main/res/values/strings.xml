@@ -38,5 +38,15 @@
     Each question may be an addition, subtraction, multiplication or division.\n\n
     Your ten best scores will automatically be saved into the High Scores.</string>
     <string name="zero">Score: 0</string>
+    <string name="moves">moves :</string>
+    <string name="color">color :</string>
 
+    <string name="action_back">Back</string>
+
+    <string name="action_barley">Barley</string>
+
+    <string name="action_startBarley">New Barley</string>
+    <string name="action_exitBarley">Exit from Barley</string>
+
+    <string name="action_select">Select</string>
 </resources>
