@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".game.KrestikiNoliki"
-    android:background="@drawable/kn_board">
+    android:background="@drawable/kn_ground">
 
     <LinearLayout
         android:id="@+id/gridLayout"
