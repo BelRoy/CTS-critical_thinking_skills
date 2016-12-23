@@ -49,4 +49,16 @@
     <string name="action_exitBarley">Exit from Barley</string>
 
     <string name="action_select">Select</string>
+    <string name="memory_game">Memory Game</string>
+    <string-array name="type">
+        <item>New Game</item>
+        <item>4 X 4</item>
+        <item>4 X 5</item>
+        <item>4 X 6</item>
+        <item>5 X 6</item>
+
+    </string-array>
+
+
+
 </resources>

@@ -9,6 +9,8 @@ import android.view.WindowManager;
 
 import com.devqt.cts_critical.thinking.skills.game.KrestikiNoliki;
 import com.devqt.cts_critical.thinking.skills.game.Mathematic;
+import com.devqt.cts_critical.thinking.skills.game.Memory;
+
 
 public class MenuGameItems extends Activity {
 
@@ -36,6 +38,13 @@ public class MenuGameItems extends Activity {
             }
         });
 
+        findViewById(R.id.head_made).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuGameItems.this, Memory.class));
+
+            }
+        });
 
     }
 

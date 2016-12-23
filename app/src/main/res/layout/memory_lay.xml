@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/TableLayout03">
+     <TableRow
+         android:id="@+id/TableRow04"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+    <Spinner
+        android:id="@+id/Spin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+</TableRow>
+    <TableRow
+        android:id="@+id/TableRow05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:paddingLeft="10sp"
+        android:layout_weight="1" />
+</TableRow>
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/memory_game"
+        android:visibility="visible"
+        android:textSize="30sp"
+        android:paddingTop="20sp"
+        android:textColor="#EEFFAA"
+        android:id="@+id/mainTitle" />
+</TableRow>
+     <TableRow
+         android:id="@+id/TableRow02"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+
+     </TableRow>
+     <TableRow
+         android:id="@+id/TableRow03"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:gravity="center">
+    <LinearLayout
+        android:id="@+id/LinearLayout01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <ImageView
+        android:id="@+id/ImageView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/card1"
+        android:layout_gravity="center" />
+</LinearLayout>
+</TableRow>
+</TableLayout>
