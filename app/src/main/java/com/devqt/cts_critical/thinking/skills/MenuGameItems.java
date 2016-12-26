@@ -10,6 +10,7 @@ import android.view.WindowManager;
 import com.devqt.cts_critical.thinking.skills.game.KrestikiNoliki;
 import com.devqt.cts_critical.thinking.skills.game.Mathematic;
 import com.devqt.cts_critical.thinking.skills.game.Memory;
+import com.devqt.cts_critical.thinking.skills.game.ShulteTabs;
 
 
 public class MenuGameItems extends Activity {
@@ -43,6 +44,13 @@ public class MenuGameItems extends Activity {
             public void onClick(View v) {
                 startActivity(new Intent(MenuGameItems.this, Memory.class));
 
+            }
+        });
+        findViewById(R.id.shulte_btn_act).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MenuGameItems.this, ShulteTabs.class));
+                finish();
             }
         });
 

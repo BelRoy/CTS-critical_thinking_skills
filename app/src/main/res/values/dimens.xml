@@ -7,4 +7,5 @@
     <dimen name="option_back">26dp</dimen>
     <dimen name="text_dp_bar">24dp</dimen>
     <dimen name="dp_bar">32dp</dimen>
+    <dimen name="shulte_shrift">45dp</dimen>
 </resources>

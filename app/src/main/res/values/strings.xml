@@ -50,6 +50,10 @@
 
     <string name="action_select">Select</string>
     <string name="memory_game">Memory Game</string>
+    <string name="shulte_start">Start</string>
+    <string name="shulte_options">Options</string>
+    <string name="shulte_exit">Exit</string>
+    <string name="shulte_table">Shulte Table</string>
     <string-array name="type">
         <item>New Game</item>
         <item>4 X 4</item>
@@ -58,7 +62,6 @@
         <item>5 X 6</item>
 
     </string-array>
-
 
 
 </resources>

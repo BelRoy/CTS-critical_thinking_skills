@@ -84,4 +84,12 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shulte_btn_act"
+        android:src="@drawable/shulte"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/labirint"
+        android:layout_alignStart="@+id/labirint" />
 </RelativeLayout>

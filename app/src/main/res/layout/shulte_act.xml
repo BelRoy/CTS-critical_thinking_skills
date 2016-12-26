@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".game.ShulteTabs">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shulte_table"
+        android:text="@string/shulte_table"
+        android:textColor="@color/shulte_tab_color"
+        android:textSize="@dimen/shulte_shrift"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh_start"
+        android:text="@string/shulte_start"
+        android:layout_marginBottom="43dp"
+        android:layout_above="@+id/sh_options"
+        android:layout_alignRight="@+id/sh_exit"
+        android:layout_alignEnd="@+id/sh_exit"
+        android:textSize="@dimen/option_back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh_options"
+        android:text="@string/shulte_options"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/option_back"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sh_exit"
+        android:text="@string/shulte_exit"
+        android:layout_marginTop="44dp"
+        android:layout_below="@+id/sh_options"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/option_back"/>
+
+</RelativeLayout>

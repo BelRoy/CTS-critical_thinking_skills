@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="chbmulticolor"
+        android:summaryOff="Multicolor is off"
+        android:summaryOn="Multicolor is on"
+        android:title="Multicolor">
+    </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="chbshuffle"
+            android:summaryOff="Shuffle on the touch is off"
+            android:summaryOn="Shuffle on the touch is on"
+            android:title="Shuffle on the touch">
+        </CheckBoxPreference>
+        <CheckBoxPreference
+            android:key="chbsound"
+            android:summaryOff="Sound is off"
+            android:summaryOn="Sound is on"
+            android:title="Sound">
+        </CheckBoxPreference>
+    <CheckBoxPreference
+        android:key="chbvibrate"
+        android:summaryOff="Vibrate is off"
+        android:summaryOn="Vibrate is on"
+        android:title="Vibration on the touch">
+    </CheckBoxPreference>
+    </PreferenceScreen>
+
