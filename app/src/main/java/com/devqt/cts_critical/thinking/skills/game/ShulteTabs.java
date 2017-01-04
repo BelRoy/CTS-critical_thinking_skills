@@ -19,7 +19,8 @@ public class ShulteTabs extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.shulte_act);
         String fontPath = "fonts/disney.ttf";
-        TextView text = (TextView) findViewById(R.id.shulte_table);
+        TextView text = (TextView) findViewById(R.id.shulte_table
+        );
         Typeface typeface = Typeface.createFromAsset(getAssets(), fontPath);
         text.setTypeface(typeface);
 

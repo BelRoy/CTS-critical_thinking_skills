@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="250dp"
+	android:layout_gravity="center"
+	android:background="@drawable/pause_menu_dialog_ground" >
+
+	<ImageView
+		android:id="@+id/pause_menu_resume"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_alignParentBottom="true"
+		android:layout_centerVertical="true"
+		android:layout_marginBottom="50dp"
+		android:layout_marginLeft="85dp"
+		android:clickable="true"
+		android:scaleType="centerInside"
+		android:src="@drawable/pause_menu_resume_button_background" />
+
+	<ImageView
+		android:id="@+id/pause_menu_exit"
+		android:layout_width="50dp"
+		android:layout_height="50dp"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="50dp"
+		android:layout_marginRight="85dp"
+		android:clickable="true"
+		android:scaleType="centerInside"
+		android:src="@drawable/pause_menu_exit_button_background" />
+
+	<ImageView
+		android:id="@+id/pause_menu_background_left_button"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="60dp"
+		android:layout_marginTop="50dp"
+		android:clickable="true"
+		android:scaleType="centerInside"
+		android:src="@drawable/pause_menu_left_button_background" />
+
+	<ImageView
+		android:id="@+id/pause_menu_background_right_button"
+		android:layout_width="30dp"
+		android:layout_height="30dp"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginRight="60dp"
+		android:layout_marginTop="50dp"
+		android:clickable="true"
+		android:scaleType="centerInside"
+		android:src="@drawable/pause_menu_right_button_background" />
+
+	<TextView
+		android:id="@+id/textView1"
+		android:layout_width="140dp"
+		android:layout_height="30dp"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginLeft="90dp"
+		android:layout_marginTop="50dp"
+		android:gravity="center"
+		android:text="@string/pause_menu_background_change"
+		android:textColor="@color/tile_text_color"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/TextView01"
+		android:layout_width="50dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginBottom="30dp"
+		android:layout_marginLeft="85dp"
+		android:gravity="center"
+		android:text="Back"
+		android:textColor="@color/tile_text_color"
+		android:textSize="20sp" />
+
+	<TextView
+		android:id="@+id/TextView02"
+		android:layout_width="50dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginBottom="30dp"
+		android:layout_marginRight="85dp"
+		android:gravity="center"
+		android:text="Exit"
+		android:textColor="@color/tile_text_color"
+		android:textSize="20sp" />
+
+</RelativeLayout>

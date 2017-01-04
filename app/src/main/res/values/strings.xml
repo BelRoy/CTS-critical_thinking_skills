@@ -54,6 +54,10 @@
     <string name="shulte_options">Options</string>
     <string name="shulte_exit">Exit</string>
     <string name="shulte_table">Shulte Table</string>
+    <string name="mix">mix</string>
+    <string name="steps">Steps Qty: 0</string>
+    <string name="pic_load">Load picture</string>
+    <string name="del_num">Delete numbers</string>
     <string-array name="type">
         <item>New Game</item>
         <item>4 X 4</item>
@@ -62,6 +66,11 @@
         <item>5 X 6</item>
 
     </string-array>
+    <string name="gameplay_new_game_button">New</string>
+    <string name="game_play_status_bar_win">You win!</string>
+    <string name="game_play_status_bar_step_format">Steps Used: %d</string>
+    <string name="game_play_dialog_pause_dialog_title">Menu</string>
+    <string name="pause_menu_background_change">Background</string>
 
 
 </resources>

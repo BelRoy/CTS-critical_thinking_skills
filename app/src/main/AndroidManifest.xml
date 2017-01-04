@@ -60,5 +60,9 @@
             android:name=".game.ShulteGame"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".game.Rulez"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
     </application>
 </manifest>

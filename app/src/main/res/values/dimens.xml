@@ -8,4 +8,16 @@
     <dimen name="text_dp_bar">24dp</dimen>
     <dimen name="dp_bar">32dp</dimen>
     <dimen name="shulte_shrift">45dp</dimen>
+
+    <dimen name="px_gameboard_bezel_width">60px</dimen>
+    <dimen name="px_gameboard_width">1280px</dimen>
+    <dimen name="px_gameboard_height">1024px</dimen>
+    <dimen name="dp_gameboard_left_right_margin">10dp</dimen>
+    <dimen name="dp_gameboard_top_bottom_margin">10dp</dimen>
+    <dimen name="dp_tile_max_width">60dp</dimen>
+    <dimen name="px_difference_between_tile_width_n_tile_number">20px</dimen>
+    <dimen name="dp_gameplay_status_bar_height">50dp</dimen>
+    <dimen name="dp_gameplay_bottom_button_bar_height">35dp</dimen>
+    <dimen name="dp_system_top_bar_height">50dp</dimen>
+
 </resources>

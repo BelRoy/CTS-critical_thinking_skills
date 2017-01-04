@@ -6,4 +6,8 @@
     <color name="load_color">#cfcece</color>
     <color name="colorDark">#030303</color>
     <color name="shulte_tab_color">#dc0505</color>
+
+    <color name="top_status_bar_text_color">#FFFFFF</color>
+    <color name="tile_text_color">#681D00</color>
+    <color name="new_game_menu_row_column_number">#FFDA98</color>
 </resources>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/gameplay_base_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/card_table_texture"
+	android:orientation="vertical" >
+
+	<FrameLayout
+		android:id="@+id/gameplay_gameboard"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/board_texture" >
+	</FrameLayout>
+
+	<TableLayout
+		android:id="@+id/tableLayout1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:stretchColumns="*" >
+
+		<TableRow
+			android:id="@+id/tableRow1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" >
+
+			<ImageView
+				android:id="@+id/gameplay_menu_button"
+				android:layout_width="wrap_content"
+				android:layout_height="@dimen/dp_gameplay_bottom_button_bar_height"
+				android:layout_weight="1"
+				android:background="@drawable/button_background_wood"
+				android:clickable="true"
+				android:paddingBottom="5dp"
+				android:paddingTop="5dp"
+				android:scaleType="centerInside"
+				android:src="@android:drawable/ic_media_pause" />
+
+			<ImageView
+				android:id="@+id/gameplay_undo_button"
+				android:layout_width="wrap_content"
+				android:layout_height="@dimen/dp_gameplay_bottom_button_bar_height"
+				android:layout_weight="1"
+				android:background="@drawable/button_background_wood"
+				android:clickable="true"
+				android:paddingBottom="5dp"
+				android:paddingTop="5dp"
+				android:scaleType="centerInside"
+				android:src="@drawable/ic_undo" />
+
+			<ImageView
+				android:id="@+id/gameplay_redo_button"
+				android:layout_width="wrap_content"
+				android:layout_height="@dimen/dp_gameplay_bottom_button_bar_height"
+				android:layout_weight="1"
+				android:background="@drawable/button_background_wood"
+				android:clickable="true"
+				android:paddingBottom="5dp"
+				android:paddingTop="5dp"
+				android:src="@drawable/ic_redo" />
+
+			<Button
+				android:id="@+id/gameplay_new_game_button"
+				android:layout_width="wrap_content"
+				android:layout_height="@dimen/dp_gameplay_bottom_button_bar_height"
+				android:layout_weight="1"
+				android:background="@drawable/button_background_wood"
+				android:text="@string/gameplay_new_game_button"
+				android:textColor="@color/top_status_bar_text_color"
+				android:textSize="18sp" />
+		</TableRow>
+	</TableLayout>
+
+	<TextView
+		android:id="@+id/gameplay_status_bar"
+		android:layout_width="50dp"
+		android:layout_height="fill_parent"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:background="@drawable/wood_top_status_bar"
+		android:gravity="center"
+		android:text="TextView"
+		android:textColor="@color/top_status_bar_text_color"
+		android:textSize="22sp" />
+
+</RelativeLayout>

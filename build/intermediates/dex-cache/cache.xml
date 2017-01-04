@@ -1,3 +1,124 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fffa03d1d6a9ba633d6b91c670a17fdcf32cf545.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="978e8676c623d00845ed4598dbcc0b8bc90c81de">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\instant-run_00cc8979f4f3462d93029cc26338cf1baf7fd356.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f1efb3e07d5cd403302810e3b035a9c9133ddd80.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_71c02756a67649f4e546d8035e48f4c60258ef1d.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_d2fe5e3c07247d25675eb15c2c6344336eb54488.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_2b13dbba1c76d9b139869c4fa7166f1e7059ce0d.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_dafa4748eef4c134af62489dd1dab691b9818d15.jar" />
+    </item>
+    <item
+        jar="D:\Program Files (x86)\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_c6ee83d5ac5d11c34968a1fdeaa1c92ddb4169e1.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_c04e308e429eccce54707fc13f2e9cb361008501.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_54c428f02ab0f39aefe63840bac822d9048821c3.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_9982b3f6eaa160d9bff858045c81e10c2f04f6b9.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_c732c161002d0d4d6e431ead7a6bb02dcf220b4d.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_2df25567e0e6792ea1ebb950f11a060c4c5f6aee.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_57a326ef7a1ab22c35e8d98bc153619675d6169e.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_5a4640e318c608d57bef29dfd7a099cdea17c218.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_b098c210c5b68e987177122c59a8f9a9cd787999.jar" />
+    </item>
+    <item
+        jar="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.3"
+        sha1="5e0baccdb92fc0b9f799aed77324ca082147cc7f">
+        <dex dex="G:\Development\CTS-critical_thinking_skills\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_48a50a7a9c01c00fe1c4dad0966b0c185d0dff0b.jar" />
+    </item>
+
+</items>

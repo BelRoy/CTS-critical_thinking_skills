@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/new_game_menu_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:layout_gravity="bottom"
+	android:layout_marginBottom="@dimen/dp_gameplay_bottom_button_bar_height"
+	android:background="@drawable/button_background_wood" >
+
+	<LinearLayout
+		android:id="@+id/new_game_menu_layout"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@drawable/button_background_wood" >
+
+		<ImageView
+			android:id="@+id/new_game_row_left_button"
+			android:layout_width="15dp"
+			android:layout_height="59dp"
+			android:clickable="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_column_left_button" />
+
+		<ImageView
+			android:id="@+id/row_label"
+			android:layout_width="53dp"
+			android:layout_height="61dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_row" />
+
+		<ImageView
+			android:id="@+id/new_game_row_right_button"
+			android:layout_width="15dp"
+			android:layout_height="61dp"
+			android:clickable="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_row_right_button" />
+
+		<ImageView
+			android:id="@+id/new_game_enter"
+			android:layout_width="154dp"
+			android:layout_height="60dp"
+			android:clickable="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_enter_button" />
+
+		<ImageView
+			android:id="@+id/new_game_column_left_button"
+			android:layout_width="15dp"
+			android:layout_height="60dp"
+			android:clickable="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_column_left_button" />
+
+		<ImageView
+			android:layout_width="53dp"
+			android:layout_height="60dp"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_col" />
+
+		<ImageView
+			android:id="@+id/new_game_column_right_button"
+			android:layout_width="15dp"
+			android:layout_height="60dp"
+			android:clickable="true"
+			android:scaleType="fitXY"
+			android:src="@drawable/new_game_bar_column_right_button" />
+	</LinearLayout>
+
+	<TextView
+		android:id="@+id/new_game_menu_row_number"
+		android:layout_width="53dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="14dp"
+		android:gravity="center"
+		android:text="4"
+		android:textColor="@color/new_game_menu_row_column_number"
+		android:textSize="35sp" />
+
+	<TextView
+		android:id="@+id/new_game_menu_column_number"
+		android:layout_width="53dp"
+		android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="14dp"
+		android:gravity="center"
+		android:text="4"
+		android:textColor="@color/new_game_menu_row_column_number"
+		android:textSize="35sp" />
+
+</RelativeLayout>

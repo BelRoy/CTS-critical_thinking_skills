@@ -8,4 +8,35 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+
+        <style name="PauseDialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+            <item name="android:windowAnimationStyle">@style/PauseDialogAnimation</item>
+            <item name="android:windowFrame">@null</item>
+            <item name="android:backgroundDimEnabled">false</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowNoTitle">true</item>
+        </style>
+
+        <style name="PauseDialogAnimation" parent="@android:style/Animation.Dialog">
+            <item name="android:windowEnterAnimation">@anim/slide_down</item>
+            <item name="android:windowExitAnimation">@anim/slide_up</item>
+        </style>
+
+        <style name="NewGameDialog" parent="@android:style/Theme.Translucent.NoTitleBar">
+            <item name="android:windowAnimationStyle">@style/NewGameDialogAnimation</item>
+            <item name="android:windowFrame">@null</item>
+            <item name="android:backgroundDimEnabled">false</item>
+            <item name="android:windowIsTranslucent">true</item>
+            <item name="android:windowNoTitle">true</item>
+        </style>
+
+        <style name="NewGameDialogAnimation" parent="@android:style/Animation.Dialog">
+            <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
+            <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
+        </style>
+
+
+
+
+
 </resources>
